@@ -30,6 +30,9 @@ shinyUI = fluidPage(
           and download the "diamond" dataset file from your working directory,
           and input the response variable "price" and predictor variable
           "carat" in the input widgets.'),
+        p('After you have clicked the "Analyze" button, you will be able to
+          see the values of the dataset, the results of the linear regression
+          as well as the plot.'),
         br(),
         p('Based on the results of the linear regression, the formula
           for predicting the price of diamond is:'),
